@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="todolist.css">
+    <title>To-Do-List-App</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1 id="heading">To-Do-List-App</h1>
+        <div id="date-container"></div>
+        <div id="task-container">
+            <div id="task-input">
+            <label for="task" id="tasks">Enter the Task:</label>
+            <input type="text" id="task" name="task">
+            </div>
+            <div>
+            <button type="button" id="add">Add Task</button>
+            <button type="button" id="clone">Clone Task </button>
+            <button type="button" id="remove-clone">Remove Clone list</button>
+            </div>
+            <div id="tasks-container">
+            </div>
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+*
+{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+   background-color:rgb(129, 162, 223);
+}
+#main-container
+{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:5vh;
+}
+#heading
+{
+    margin-top:5vh;
+    font-size:3em;
+    color:white;
+}
+#date-container
+{
+    color:white;
+    height:8vh;
+    font-size:1.2em;
+    vertical-align:middle;
+    font-weight:bolder;
+}
+#task-container
+{
+    width:90vw;
+    height:auto;
+    border:1px solid white;
+    display:flex;
+    flex-direction:column;
+    row-gap:5vh;
+    align-items:center;
+}
+#task
+{
+    width:50vw;
+    height:6vh;
+}
+#task-input
+{
+    margin-top:10vh;
+}
+#tasks
+{
+    font-size:1.5em;
+}
+button
+{
+   padding:1vw;
+}
+.addtask
+{
+    width:50vw;
+    height:6vh;
+    border:5px ridge rgb(118, 163, 248);;
+    background-color:white;
+    border-radius:5px;
+    padding:0.5vw;
+    font-size:1.2em;
+    margin-left:12vw;
+    margin-bottom:5vh;
+}
+.removetask
+{
+    text-decoration:line-through;
+}
+.newcontainers
+{
+    width:90vw;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    row-gap:2vh;
+    align-items:center;
+}
+.marker
+{
+    width:5vw;
+    height:5vh;
+    border-radius:2px;
+    padding:0.5vw;
+}
+.main-div
+{
+    display:flex;
+    flex-direction:row;
+    column-gap:0.5vw;
+}
